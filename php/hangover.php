@@ -6,8 +6,8 @@ require 'vendor/autoload.php';
 (new Dotenv\Dotenv(__DIR__))->load();
 (strpos(exec('who'), getenv('USER')) === false) or exit('session found');
 
-$my_number = '+xxx';
-$number_of_boss = '+xxx';
+$my_number =;
+$number_of_boss = '+';
 $excuse = ['Locked out', 'Pipes broke', 'Food poisoning', 'Not feeling well'];
 $excuse = $excuse[array_rand($excuse)];
 
